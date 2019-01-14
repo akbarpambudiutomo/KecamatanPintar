@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreen"
+            android:name=".view.activity.SplashScreen"
             android:theme="@style/AppTheme.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".users.HomeActivity" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".view.activity.RegisterActivity" />
+        <activity android:name=".view.activity.HomeActivity" />
+        <activity android:name=".view.activity.LoginActivity"></activity>
     </application>
 
 </manifest>

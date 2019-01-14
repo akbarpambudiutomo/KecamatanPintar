@@ -1,4 +1,4 @@
-package com.example.akbar.smartcity.users;
+package com.example.akbar.smartcity.view.activity;
 
 import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
@@ -9,9 +9,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.akbar.smartcity.R;
-import com.example.akbar.smartcity.users.fragment.AddPhotoFragment;
-import com.example.akbar.smartcity.users.fragment.HomeFragment;
-import com.example.akbar.smartcity.users.fragment.ProfileFragment;
+import com.example.akbar.smartcity.view.fragment.AddPhotoFragment;
+import com.example.akbar.smartcity.view.fragment.HomeFragment;
+import com.example.akbar.smartcity.view.fragment.ProfileFragment;
 
 
 public class HomeActivity extends AppCompatActivity {

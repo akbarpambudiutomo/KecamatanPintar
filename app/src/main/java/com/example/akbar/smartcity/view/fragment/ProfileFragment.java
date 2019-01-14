@@ -1,4 +1,4 @@
-package com.example.akbar.smartcity.users.fragment;
+package com.example.akbar.smartcity.view.fragment;
 
 
 import android.os.Bundle;

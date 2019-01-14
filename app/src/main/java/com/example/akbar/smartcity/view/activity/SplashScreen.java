@@ -1,16 +1,12 @@
-package com.example.akbar.smartcity;
+package com.example.akbar.smartcity.view.activity;
 
-import android.content.Intent;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Window;
-import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import com.example.akbar.smartcity.users.HomeActivity;
+import com.example.akbar.smartcity.R;
 
 public class SplashScreen extends AppCompatActivity {
 
