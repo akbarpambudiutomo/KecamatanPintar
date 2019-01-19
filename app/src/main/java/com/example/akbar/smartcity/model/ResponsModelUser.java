@@ -7,11 +7,11 @@ import java.util.List;
 public class ResponsModelUser {
 
     @SerializedName("kode")
-    String kode;
+    private String kode;
     @SerializedName("pesan")
-    String pesan;
+    private String pesan;
     @SerializedName("result")
-    List<ModelUser> result;
+    private List<ModelUser> result;
 
     public ResponsModelUser(){}
 
