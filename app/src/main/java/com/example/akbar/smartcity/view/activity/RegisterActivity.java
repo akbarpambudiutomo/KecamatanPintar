@@ -29,8 +29,8 @@ public class RegisterActivity extends AppCompatActivity {
     @BindView(R.id.input_email) EditText editTextEmail;
     @BindView(R.id.input_nohp) EditText editTextNoHp;
     @BindView(R.id.input_alamat) EditText editTextAlamat;
-    @BindView(R.id.input_username) EditText editTextUsername;
-    @BindView(R.id.input_password) EditText editTextPassword;
+    @BindView(R.id.input_username_registrasi) EditText editTextUsername;
+    @BindView(R.id.input_password_registrasi) EditText editTextPassword;
     @BindView(R.id.input_pass_val) EditText editTextPassVal;
     @BindView(R.id.registrasi) Button buttonRegister;
 

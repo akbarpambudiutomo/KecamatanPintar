@@ -80,28 +80,12 @@
                     android:hint="@string/alamat"/>
             </android.support.design.widget.TextInputLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:paddingStart="3dp"
-                    android:text="@string/gender"
-                    android:textSize="17sp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="3dp" />
-
-            </LinearLayout>
-
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
                 <EditText
-                    android:id="@+id/input"
+                    android:id="@+id/input_username_registrasi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
@@ -117,7 +101,7 @@
                 app:passwordToggleTint="@color/colorAccent"
                 app:passwordToggleEnabled="true">
                 <EditText
-                    android:id="@+id/input_password"
+                    android:id="@+id/input_password_registrasi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"

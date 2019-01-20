@@ -26,10 +26,10 @@ import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity {
 
-    @BindView(R.id.input_username)
+    @BindView(R.id.input_username_login)
     EditText edUsername;
 
-    @BindView(R.id.input_password)
+    @BindView(R.id.input_password_login)
     EditText edPassword;
 
     ProgressDialog loading;
