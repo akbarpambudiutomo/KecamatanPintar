@@ -42,6 +42,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         ButterKnife.bind(this);
+        ButterKnife.bind(this);
 
         loading = new ProgressDialog(LoginActivity.this);
         sessionManager = new SessionManager(LoginActivity.this);
@@ -54,6 +55,12 @@ public class LoginActivity extends AppCompatActivity {
 
         }
 
+    }
+
+    @OnClick(R.id.register)
+    public void register(){
+        Intent regis = new Intent(getApplicationContext(),RegisterActivity.class);
+        startActivity(regis);
     }
 
     @OnClick(R.id.btn_login)

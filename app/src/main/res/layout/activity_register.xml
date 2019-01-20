@@ -94,26 +94,6 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="3dp" />
 
-                <RadioGroup
-                    android:id="@+id/radioGrup"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp">
-
-                    <RadioButton
-                        android:textSize="15sp"
-                        android:id="@+id/rbpria"
-                        android:hint="@string/pria"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-
-                    <RadioButton
-                        android:textSize="15sp"
-                        android:id="@+id/rbwanita"
-                        android:hint="@string/wanita"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                </RadioGroup>
             </LinearLayout>
 
             <android.support.design.widget.TextInputLayout
@@ -136,7 +116,7 @@
                 app:passwordToggleDrawable="@drawable/icon_selector"
                 app:passwordToggleTint="@color/colorAccent"
                 app:passwordToggleEnabled="true">
-                <android.support.design.widget.TextInputLayout
+                <EditText
                     android:id="@+id/input_password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -148,7 +128,10 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
+                android:layout_marginBottom="8dp"
+                app:passwordToggleDrawable="@drawable/icon_selector"
+                app:passwordToggleTint="@color/colorAccent"
+                app:passwordToggleEnabled="true">
                 <EditText
                     android:id="@+id/input_pass_val"
                     android:layout_width="match_parent"
@@ -158,6 +141,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <Button
+                android:id="@+id/registrasi"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="30dp"

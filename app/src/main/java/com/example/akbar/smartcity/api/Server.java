@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Server {
 
-    public static final String base_url = "http://192.168.100.13/smart/";
+    public static final String base_url = "http://192.168.43.105/smart/";
 
     public static Retrofit getUrl() {
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
